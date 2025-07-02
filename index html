@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>École de Formation et Technique</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <a href="https://drive.google.com/file/d/1u01aJPD4YgvkPcMplrZpDBD3kcrhf1ez/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">
+      <img src="logo.png" alt="Logo" style="width:100px;">
+    </a>
+
+    <h1>École de formation et technique</h1>
+    <p class="slogan">Former, transformer, Réussir</p>
+
+    <nav class="menu">
+      <a href="#">Accueil</a>
+      <a href="#">Nos cours</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Formations gratuites pour tous</h2>
+      <p>Commencez dès aujourd'hui, à votre rythme et sans frais.</p>
+    </section>
+
+    <section class="catalogue">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x150?text=Théologie" alt="Théologie Biblique">
+        <h3>Théologie Biblique</h3>
+        <p>Cours accessibles à tous les niveaux.</p>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #0066cc;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header img {
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.menu a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  background: #e0e0e0;
+  padding: 40px;
+  text-align: center;
+}
+
+.catalogue {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  width: 300px;
+  text-align: center;
+}
